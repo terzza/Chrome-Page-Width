@@ -1,0 +1,8 @@
+<input type="range"  min="0" max="100" value="100" onchange="sendMsg(this.value)"/>
+<script>
+function sendMsg(sliderVal){
+    chrome.tabs.getSelected(null, function(tab) {
+      chrome.tabs.sendRequest(tab.id, {sliderVal: sliderVal}, function(response) {});
+    });
+}
+</script>

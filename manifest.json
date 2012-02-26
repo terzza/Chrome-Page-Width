@@ -1,0 +1,19 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "pageEdit.js" ],
+      "matches": [ "http://*/*" ]
+   } ],
+   "description": "An extension to alter the width of text on a page",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "name": "Page Width",
+   "permissions": [ "tabs" ],
+   "version": "0.1"
+}
