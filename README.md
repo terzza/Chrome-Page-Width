@@ -17,12 +17,14 @@ Where?
 Get it here on Github, or add it from the Chrome WebStore
 
 https://github.com/terzza/Chrome-Page-Width
+
 https://chrome.google.com/webstore/detail/jebcbnokhefehlfabkldmcofdopdoemk
 
 How?
 ----
 
 Add the unpacked source by visiting `chrome://extensions/` in Chrome / Chromium.
+
 Or click on the "ADD TO CHROME" link on the webstore page.
 
 
